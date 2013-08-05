@@ -1,0 +1,83 @@
+eeschema (2013-03-12 BZR 3996)-testing  >> Creation date: Tue 30 Apr 2013 11:02:54 AM CDT
+#Cmp ( order = Reference )
+| C1         100u        ; SM1210      
+| C2         22pf        ; SM0603_Capa 
+| C3         22pf        ; SM0603_Capa 
+| C4         1uF         ; SM0603_Capa 
+| C5         4.7u        ; SM0603_Capa 
+| C6         1u          ; SM0603_Capa 
+| C7         4.7pF       ; SM0603_Capa 
+| C8         .1u         ; SM0603_Capa 
+| C9         10u         ; SM0603_Capa 
+| C10        1u          ; SM0603_Capa 
+| C11        10u         ; SM0603_Capa 
+| C12        4.7u        ; SM0603_Capa 
+| C13        10u         ; SM0603_Capa 
+| C14        10u         ; SM0603_Capa 
+| C15        10u         ; SM0603_Capa 
+| C16        10n         ; SM0603_Capa 
+| C17        .47u        ; SM0603_Capa 
+| C18        10u         ; SM0603_Capa 
+| C19        .1          ; SM0603_Capa 
+| C20        5F 5v       ; C2          
+| C21        .1u         ; SM0603      
+| C22        10u         ; SM0603_Capa 
+| D1         DIODESCH    ; SM0603      
+| D2         DIODESCH    ; SM0603      
+| D3         DIODESCH    ; SM0603      
+| D4         DIODESCH    ; SM0603      
+| D5         DIODESCH    ; SM0603      
+| D6         DIODESCH    ; SM0603      
+| D7         PHOTODIODE  ; SM0805      
+| D8         LED         ; LED-0805    
+| D9         PHOTODIODE  ; SM0805      
+| IC1        ATMEGA1284P-A; TQFP44      
+| L1         10u         ; SM2010      
+| L2         10u         ; SM2010      
+| L3         10u         ; NR5040      
+| L4         10u         ; NR5040      
+| P1         CONN_5X2    ; PIN_ARRAY_5x2
+| P2         CONN_2      ; SIL-2       
+| R1         100k        ; SM0603      
+| R2         1M          ; SM0603      
+| R3         1M          ; SM0603      
+| R4         560k        ; SM0603      
+| R5         100k        ; SM0603      
+| R6         100k        ; SM0603      
+| R7         100k        ; SM0603      
+| R8         100k        ; SM0603      
+| R9         100k        ; SM0603      
+| R10        100k        ; SM0603      
+| R11        1           ; SM0603      
+| R12        100k        ; SM0603      
+| R13        196k        ; SM0603      
+| R14        196k        ; SM0603      
+| R15        100k        ; SM0603      
+| R16        196k        ; SM0603      
+| R17        180k        ; SM0603      
+| R18        100k        ; SM0603      
+| R19        750k        ; SM0603      
+| R20        250k        ; SM0603      
+| R21        .1          ; SM0603      
+| R22        2k          ; SM0603      
+| R23        tweak       ; SM0603      
+| R24        tweak       ; SM0603      
+| R25        316k        ; SM0603      
+| R26        107k        ; SM0603      
+| R27        200k        ; SM0603      
+| R28        1k          ; SM0603      
+| R29        200k        ; SM0603      
+| U1         LT1615-1    ; SOT23-5     
+| U2         AT45DB321D  ; SO8E        
+| U3         MCP6054     ; SO14N       
+| U4         MAX11612    ; uMAX8       
+| U5         TPS7703X    ; SOT23-5     
+| U6         ADXL337     ; LFCSP8      
+| U7         LIS3DSH     ; LGA16       
+| U8         LT1618      ; DFN10       
+| U9         MAX9022     ; uMAX8       
+| U10        SN74AUP1G00 ; SOT23-5     
+| X1         CRYSTAL     ; XTAL_DFN_CTS403
+#End Cmp
+
+#End List

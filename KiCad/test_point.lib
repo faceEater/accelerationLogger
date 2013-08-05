@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3  Date: Mon 27 May 2013 11:42:08 PM CDT
+#encoding utf-8
+#
+# TEST_POINT
+#
+DEF ~TEST_POINT TP 0 40 Y Y 1 F N
+F0 "TP" 100 -200 60 H V C CNN
+F1 "TEST_POINT" 100 200 60 H I C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+C 100 0 71 0 1 0 N
+X ~ ~ 100 0 0 R 50 50 1 1 N X
+ENDDRAW
+ENDDEF
+#
+#End Library
