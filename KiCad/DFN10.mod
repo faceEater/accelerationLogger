@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Sun 05 May 2013 11:35:22 PM CDT
+PCBNEW-LibModule-V1  Fri 08 Nov 2013 11:14:51 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 DFN10
 $EndINDEX
 $MODULE DFN10
-Po 0 0 0 15 5187302A 00000000 ~~
+Po 0 0 0 15 527DC4C1 00000000 ~~
 Li DFN10
 Sc 0
 AR 
@@ -13,10 +13,14 @@ Op 0 0 0
 .LocalClearance 0.1
 T0 0 2.95 1 1 0 0.15 N V 21 N "DFN10"
 T1 0 -2.8 1 1 0 0.15 N V 21 N "VAL**"
-DS -1.8 1.5 -1.8 -1.5 0.15 21
-DS 1.8 1.5 1.8 -1.5 0.15 21
+DS -1.55 1.55 -1.4 1.55 0.15 21
+DS -1.55 -1.55 -1.4 -1.55 0.15 21
+DS 1.55 1.55 1.4 1.55 0.15 21
+DS 1.55 -1.55 1.4 -1.55 0.15 21
+DS -1.55 1.55 -1.55 -1.55 0.15 21
+DS 1.55 1.55 1.55 -1.55 0.15 21
 $PAD
-Sh "11" R 0.793 1.6 0 0 1800
+Sh "11" R 0.793 1.4 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -24,7 +28,7 @@ Po 0.793 0
 .SolderPaste -0.15
 $EndPAD
 $PAD
-Sh "11" R 0.793 1.6 0 0 1800
+Sh "11" R 0.793 1.4 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -32,7 +36,7 @@ Po 0 0
 .SolderPaste -0.15
 $EndPAD
 $PAD
-Sh "6" O 0.25 0.7 0 0 1800
+Sh "6" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -40,7 +44,7 @@ Po 1 -1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "7" O 0.25 0.7 0 0 1800
+Sh "7" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -48,7 +52,7 @@ Po 0.5 -1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "8" O 0.25 0.7 0 0 1800
+Sh "8" O 0.25 0.89 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -56,7 +60,7 @@ Po 0 -1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "9" O 0.25 0.7 0 0 1800
+Sh "9" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -64,7 +68,7 @@ Po -0.5 -1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "10" O 0.25 0.7 0 0 1800
+Sh "10" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -72,7 +76,7 @@ Po -1 -1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "1" O 0.25 0.7 0 0 1800
+Sh "1" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -80,7 +84,7 @@ Po -1 1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "2" O 0.25 0.7 0 0 1800
+Sh "2" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -88,7 +92,7 @@ Po -0.5 1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "3" O 0.25 0.7 0 0 1800
+Sh "3" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -96,7 +100,7 @@ Po 0 1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "4" O 0.25 0.7 0 0 1800
+Sh "4" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -104,7 +108,7 @@ Po 0.5 1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "5" O 0.25 0.7 0 0 1800
+Sh "5" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -112,7 +116,7 @@ Po 1 1.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "11" R 0.793 1.6 0 0 1800
+Sh "11" R 0.793 1.4 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""

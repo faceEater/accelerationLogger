@@ -1,17 +1,17 @@
-PCBNEW-LibModule-V1  Wed 08 May 2013 10:39:02 AM CDT
+PCBNEW-LibModule-V1  Fri 08 Nov 2013 11:23:04 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 LGA16
 $EndINDEX
 $MODULE LGA16
-Po 0 0 0 15 518A7185 00000000 ~~
+Po 0 0 0 15 527DC1C3 00000000 ~~
 Li LGA16
 Sc 0
 AR /512CBD97
 Op 0 0 0
 .LocalClearance 0.05
-T0 0 2.95 1 1 0 0.15 N V 21 N "LGA16"
+T0 0 2.95 1 1 0 0.15 N V 21 N "U7"
 T1 13.7665 -5.4555 1 1 0 0.15 N I 21 N "LIS3DSH"
 DS -1.5 1.5 -1.5 1.35 0.175 21
 DS -1.5 1.5 -0.85 1.5 0.175 21
@@ -23,7 +23,7 @@ DS -1.5 -1.5 -1.5 -1.35 0.175 21
 DS -1.5 -1.5 -0.9 -1.5 0.175 21
 DC -0.55 -0.55 -0.4 -0.35 0.175 21
 $PAD
-Sh "2" O 0.35 0.8 0 0 900
+Sh "2" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -31,7 +31,7 @@ Po -1.54 -0.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "3" O 0.35 0.8 0 0 900
+Sh "3" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -39,39 +39,39 @@ Po -1.54 0
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "4" O 0.35 0.8 0 0 900
+Sh "4" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "Net-(IC1-Pad19)"
 Po -1.55 0.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "5" O 0.35 0.8 0 0 900
+Sh "5" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "GND"
 Po -1.54 1
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "1" O 0.35 0.8 0 0 900
+Sh "1" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "3V3"
 Po -1.54 -1
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "13" O 0.35 0.8 0 0 900
+Sh "13" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "GND"
 Po 1.45 -1
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "9" O 0.35 0.8 0 0 900
+Sh "9" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -79,73 +79,73 @@ Po 1.45 1
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "10" O 0.35 0.8 0 0 900
+Sh "10" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "GND"
 Po 1.44 0.5
 $EndPAD
 $PAD
-Sh "11" O 0.35 0.8 0 0 900
+Sh "11" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "Net-(IC1-Pad23)"
 Po 1.45 0
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "12" O 0.35 0.8 0 0 900
+Sh "12" O 0.25 0.8 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "GND"
 Po 1.45 -0.5
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "16" O 0.35 0.8 0 0 1800
+Sh "16" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "GND"
 Po -0.5 -1.45
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "15" O 0.35 0.8 0 0 1800
+Sh "15" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "3V3_Analog_Unswitched"
 Po 0 -1.45
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "14" O 0.35 0.8 0 0 1800
+Sh "14" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "3V3_Analog_Unswitched"
 Po 0.5 -1.45
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "8" O 0.35 0.8 0 0 1800
+Sh "8" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "3V3_Analog_Unswitched"
 Po 0.5 1.45
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "7" O 0.35 0.8 0 0 1800
+Sh "7" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "GND"
 Po 0 1.45
 .SolderMask 0.03556
 $EndPAD
 $PAD
-Sh "6" O 0.35 0.8 0 0 1800
+Sh "6" O 0.25 0.8 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "Net-(IC1-Pad20)"
 Po -0.5 1.45
 .SolderMask 0.03556
 $EndPAD

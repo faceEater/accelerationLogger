@@ -1,8 +1,6 @@
-update=Sun 07 Jul 2013 10:38:54 AM CDT
+update=Tue 05 Nov 2013 06:48:59 PM CST
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -64,12 +62,13 @@ LibName44=KiCad/lis3dsh
 LibName45=KiCad/test_point
 [pcbnew]
 version=1
+PageLayoutDescrFile=
 LastNetListRead=logger.net
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=1.34874
-PadSizeV=0.39878
+PadSizeH=0.508
+PadSizeV=1.143
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
@@ -80,7 +79,7 @@ SolderMaskClearance=0.1016
 SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.175
-ModuleOutlineThickness=0.175
+ModuleOutlineThickness=0.15
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -105,3 +104,8 @@ LibName19=KiCad/DO128
 LibName20=KiCad/Wolf
 LibName21=KiCad/SOD323
 LibName22=KiCad/DUCK
+LibName23=KiCad/SST25
+LibName24=KiCad/SOD128
+LibName25=KiCad/uMAX8
+[general]
+version=1
