@@ -1,5 +1,5 @@
 A pre-release of my acceleration logger files for critique
-	Almost guaranteed NOT to work!
+	Not guaranteed to work!
 	All licensed under CC-BY-SA 3.0
 
 Summary:
@@ -8,7 +8,7 @@ Summary:
     Optical communications, serial@56kbaud
     Mating charging/comms circuit not yet designed
     Updatable firmware
-    4Mbyte onboard flash
+    8Mbyte onboard flash
     Charges in <5 minutes with coil supplying 5v at a yet to be determined current (depends on charger)
     Powered from 5V, 5F supercap with LT1615-1 SEPIC Converter
     Linear postregulator for low noise
